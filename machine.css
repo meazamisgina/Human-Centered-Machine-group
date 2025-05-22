@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: azure;
+
+}
+
+nav {
+    background-color: rgb(21, 66, 56);
+    padding: 1%;
+    position: fixed;
+    width: 97vw;
+
+}
+
+nav ul {
+
+    display: flex;
+    gap: 5%;
+    list-style: none;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    list-style: none;
+}
+
+#landing-img{
+
+}
+
+.intro-to-our-machine{
+    
+align-items: center;
+    display: flex;
+    width: 80vw;
+justify-self: center;
+    img{
+        width: 40vw;
+    }
+    div{
+        font-size: 1.5em;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* 
+footer {
+    height: 51vh;
+    background-color: rgb(21, 66, 56);
+
+    #team-social {
+        color: rgb(184, 171, 171);
+        font-size: 2em;
+        display: flex;
+        gap: 1.5%;
+        padding-top: 2%;
+        padding-bottom: 1%;
+        width: 80vw;
+        justify-self: center;
+        font-weight: bold;
+        border-bottom: solid 1px white;
+    }
+
+    #copy-right {
+        color: rgb(223, 208, 208);
+        text-align: center;
+        font-size: 1.2em;
+        border-top: solid 1px gray;
+        width: 81%;
+        margin-left: 9%;
+        padding: 1%;
+    }
+
+    img {
+        width: 15vw;
+        height: 32vh;
+        margin-left: 42%;
+        padding: 1%;
+
+    }
+
+    ul {
+        color: rgb(245, 169, 4);
+        position: absolute;
+        left: 20%;
+        line-height: 3em;
+        list-style: none;
+        font-size: 1.7em;
+        padding: 3%;
+    }
+
+}
+
+#quote {
+    color: rgb(245, 169, 4);
+    font-size: 1.4em;
+    width: 30vw;
+    font-weight: bold;
+    float: right;
+    padding: 4%;
+} */

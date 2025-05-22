@@ -7,7 +7,7 @@ body {
   color: #333;
  }
 
- header {
+ header{
   background-color: #333;
   color: white;
   padding: 1em 0;
@@ -16,13 +16,20 @@ body {
 
  nav ul {
   list-style: none;
-  padding: 0;
+  padding: 1%;
   margin: 0;
+  background-color: #333;
  }
 
  nav ul li {
   display: inline;
   margin: 0 1em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 8%;
+  font-size: 1.3em;
+  gap: 0em;
  }
 
  nav a {
@@ -211,3 +218,4 @@ h2{
   justify-content: center;
   gap: 2em;
 }
+
