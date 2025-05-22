@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(232, 240, 240);
+}
+
+.landing {
+    display: flex;
+
+    img {
+        width: 50%;
+
+    }
+
+}
+
+nav {
+    background-color: rgb(21, 66, 56);
+    /* position: absolute; */
+    padding: 1%;
+    position: fixed;
+    width: 97vw;
+}
+
+nav ul {
+
+    display: flex;
+    gap: 5%;
+    list-style: none;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    list-style: none;
+}
+
+.mavericks {
+    width: 80vw;
+    height: 13vh;
+    margin-top: 4%;
+    background-color: white;
+    justify-self: center;
+    align-content: center;
+    font-size: 1.5em;
+    text-align: center;
+    p{
+        padding: 1%;
+    }
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+#team-name {
+    background-color: rgb(21, 66, 56);
+    width: fit-content;
+    padding: 1%;
+    margin-top: -3.5%;
+    color: wheat;
+    border-radius: 10px;
+    justify-self: center;
+    height: 0.9em;
+}
+
+#team-image {
+    width: 18vw;
+}
+
+.team{
+    float: right;
+    margin-left: 79%;
+    h1{
+       margin-left: 20%;
+       font-size: 2.5em;
+       margin-top: -10%;
+       color: rgb(21, 66, 56);
+
+    }
+}
+
+.overview-human-centered-machine {
+    width: 65%;
+    padding: 2%;
+    background-color: antiquewhite;
+    justify-self: center;
+    margin: 5%;
+    display: flex;
+    margin-top: -10%;
+    gap: 4%;
+position: relative;
+    img {
+        width: 20vw;
+    }
+
+    div {
+        h1 {
+            color: rgb(21, 66, 56);
+            line-height: 1.2em;
+            width: 40vw;
+        }
+
+        font-size: 1.5em;
+        line-height: 1.4em;
+    }
+}
+
+.overview-human-centered-machine:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    height: 51vh;
+    background-color: rgb(21, 66, 56);
+
+    #team-social {
+        color: rgb(184, 171, 171);
+        font-size: 2em;
+        display: flex;
+        gap: 1.5%;
+        padding-top: 2%;
+        padding-bottom: 1%;
+        width: 80vw;
+        justify-self: center;
+        font-weight: bold;
+        border-bottom: solid 1px white;
+    }
+
+    #copy-right {
+        color: rgb(223, 208, 208);
+        text-align: center;
+        font-size: 1.2em;
+        border-top: solid 1px gray;
+        width: 81%;
+        margin-left: 9%;
+        padding: 1%;
+    }
+
+    img {
+        width: 15vw;
+        height: 32vh;
+        margin-left: 42%;
+        padding: 1%;
+
+    }
+
+    ul {
+        color: rgb(245, 169, 4);
+        position: absolute;
+        left: 20%;
+        line-height: 3em;
+        list-style: none;
+        font-size: 1.7em;
+        padding: 3%;
+    }
+
+}
+
+#quote {
+    color: rgb(245, 169, 4);
+    font-size: 1.4em;
+    width: 30vw;
+    font-weight: bold;
+    float: right;
+    padding: 4%;
+}
