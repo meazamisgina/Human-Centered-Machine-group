@@ -1,17 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: azure;
+
+body {
+    background-color: rgb(232, 240, 240);
 
 }
 
 nav {
     background-color: rgb(21, 66, 56);
     padding: 1%;
-    position: fixed;
-    width: 97vw;
+    /* position: fixed; */
+    width: 97.2vw;
+    justify-self: center;
 
 }
 
@@ -30,21 +32,89 @@ nav a {
     list-style: none;
 }
 
-#landing-img{
+#landing-img {}
 
-}
-
-.intro-to-our-machine{
-    
-align-items: center;
+.intro-to-our-machine {
+    justify-content: center;
+    /* font-family: 'Dekko'; */
+    background-color: white;
+    padding: 2%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    gap: 4%;
+    align-items: center;
     display: flex;
-    width: 80vw;
-justify-self: center;
-    img{
-        width: 40vw;
+    width: 95vw;
+    justify-self: center;
+
+    img {
+        border: solid 20px rgb(54, 78, 54);
+        width: 27vw;
+        border-radius: 40px;
     }
-    div{
-        font-size: 1.5em;
+
+    div {
+        h1 {
+            font-family: 'Akaya Kanadaka';
+            color: rgb(236, 183, 9);
+            font-size: 2.5em;
+        }
+
+        width: 45vw;
+        font-size: 1.15em;
+        line-height: 1.2em;
+    }
+}
+
+.intro {
+    padding: 5%;
+    background-color: white;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+.machine-principles-used {
+    h1 {
+        color: rgb(236, 183, 9);
+        font-size: 2.5em;
+
+    }
+
+    padding: 5%;
+    background-color: white;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+
+.reflection-on-energy-efficiency {
+    background-color: white;
+    padding: 4%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+    h1 {
+        line-height: 1.05em;
+    }
+}
+
+.final-thought {
+    align-content: center;
+    padding: 4%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.reflections {
+    margin: 3%;
+    width: 65vw;
+    line-height: 1.4em;
+    font-size: 1.4em;
+    justify-self: center;
+    margin-top: 2%;
+    display: flex;
+    gap: 4%;
+
+    h1 {
+        color: rgb(236, 183, 9);
+        font-family: 'Akaya Kanadaka';
     }
 }
 
@@ -53,10 +123,21 @@ justify-self: center;
 
 
 
+.systemthink {
+    margin-bottom: 1.5%;
+    margin-top: 1%;
+    justify-self: center;
+    justify-content: center;
+    background-color: rgb(248, 225, 225);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    width: 35vw;
+}
 
+#systemthink {
+    padding-bottom: 8%;
 
+}
 
-/* 
 footer {
     height: 51vh;
     background-color: rgb(21, 66, 56);
@@ -111,4 +192,4 @@ footer {
     font-weight: bold;
     float: right;
     padding: 4%;
-} */
+}
